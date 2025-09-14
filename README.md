@@ -17,6 +17,7 @@ FM TOWNSの標準開発環境である「High C コンパイラ」は古いコ�
 ## for文をdo ~ while化 ##
 例えば(for i = 0; i < 256; i++) {
 という文はHigh Cだとそのまま
+
      sub edx, edx
 
      loop:
